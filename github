@@ -27,4 +27,3 @@ async def roll(ctx, dice: str):
 
     result = ', '.join(str(random.randint(1, limit)) for r in range(rolls))
     await ctx.send(result)
-bot.run("MTE2NDcxMjI1MDUyNzk4NTc4NA.GWXg-P.SV9_agrmJnzJnuGFAJEIJw576mwZ7T4At9KhqU")
